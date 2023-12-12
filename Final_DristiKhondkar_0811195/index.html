@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Social Media Blog</title>
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col bg-info">
+              <!-- Navbar -->
+              
+
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-add" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h4a.5.5 0 1 0 0-1h-4a.5.5 0 0 1-.5-.5V7.207l5-5 6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                    <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-3.5-2a.5.5 0 0 0-.5.5v1h-1a.5.5 0 0 0 0 1h1v1a.5.5 0 1 0 1 0v-1h1a.5.5 0 1 0 0-1h-1v-1a.5.5 0 0 0-.5-.5"/>
+                  </svg></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                    <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                  </svg>
+                    <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                  </svg></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                  </svg></a>
+                </li>
+                
+              </ul>
+            <hr/>
+             
+            <body>
+                <header>
+                  <div class="container mt-4">
+                    <h1 class="text-center text-danger">Dristi Khondkar's Vision</h1>
+                  </div>
+                  <div class="alert alert-primary" role="alert">
+                    Todays Job Posting
+                  </div>
+  
+  <!-- Modal -->
+  <button
+  type="button"
+  class="btn btn-primary mt-4"
+  data-bs-toggle="modal"
+  data-bs-target="#exampleModal"
+>
+  Launch Modal
+</button>
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">
+         My Social Media
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">This is my website.</div>
+      <img src="social3.jpeg" class="card-img-top" alt="..." />
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-dismiss="modal"
+        >
+          Close
+        </button>
+        <button type="button" class="btn btn-primary">
+            Current Time: 3:40 pm
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- Modal -->
+ <button
+ type="button"
+ class="btn btn-primary mt-4"
+ data-bs-toggle="modal"
+ data-bs-target="#exampleModal"
+>
+ Launch Modal
+</button>
+<div
+ class="modal fade"
+ id="exampleModal"
+ tabindex="-1"
+ aria-labelledby="exampleModalLabel"
+ aria-hidden="true"
+>
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5 class="modal-title" id="exampleModalLabel">
+        My Social Media
+       </h5>
+       <button
+         type="button"
+         class="btn-close"
+         data-bs-dismiss="modal"
+         aria-label="Close"
+       ></button>
+     </div>
+     <div class="modal-body">This is my website.</div>
+     <img src="social3.jpeg" class="card-img-top" alt="..." />
+     <div class="modal-footer">
+       <button
+         type="button"
+         class="btn btn-secondary"
+         data-bs-dismiss="modal"
+       >
+         Close
+       </button>
+       <button type="button" class="btn btn-primary">
+        Current Time: 3:40 pm
+       </button>
+     </div>
+   </div>
+ </div>
+</div>
+ <!-- Modal -->
+ <button
+ type="button"
+ class="btn btn-primary mt-4"
+ data-bs-toggle="modal"
+ data-bs-target="#exampleModal"
+>
+ Launch Modal
+</button>
+<div
+ class="modal fade"
+ id="exampleModal"
+ tabindex="-1"
+ aria-labelledby="exampleModalLabel"
+ aria-hidden="true"
+>
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5 class="modal-title" id="exampleModalLabel">
+        My Social Media
+       </h5>
+       <button
+         type="button"
+         class="btn-close"
+         data-bs-dismiss="modal"
+         aria-label="Close"
+       ></button>
+     </div>
+     <div class="modal-body">This is my website.</div>
+     <img src="social3.jpeg" class="card-img-top" alt="..." />
+     <div class="modal-footer">
+       <button
+         type="button"
+         class="btn btn-secondary"
+         data-bs-dismiss="modal"
+       >
+         Close
+       </button>
+       <button type="button" class="btn btn-primary">
+         Current time: 3:45 pm
+       </button>
+     </div>
+   </div>
+ </div>  
+</div>
+
+<hr /> 
+          <!--form create-->
+          <h1>Please complete the Profile form and submit</h1>
+    <form id="myForm" action="#" method="post">
+        <div class="flex-container">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="flex-container">
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" id="DOB" name="DOB" required>
+        </div>
+        <div class="flex-container">
+            
+            <label for="zipcode">Zip Code:</label>
+        <input type="text" id="zipcode" name="zipcode" required minlength="6">
+        </div>
+        <div class="flex-container">
+            <label for="phone">Phone (Canadian format):</label>
+          <input type="tel" id="phone" name="phone" pattern="^\d{3}-\d{3}-\d{4}$" placeholder="123-456-7890" oninvalid="this.setCustomValidity('Please enter a valid US phone number (e.g., 123-456-7890)')"oninput="this.setCustomValidity('')">
+        </div>
+        </div>
+        <div>
+            <br>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+            </div>
+          </div>
+         
+          
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright 2023 | Dristi Khondkar</p>
+    </footer>
+  </body>
+</html>
+<script>
+  const tooltipTriggerList = document.querySelectorAll(
+    '[data-bs-toggle="tooltip"]'
+  );
+  const tooltipList = [...tooltipTriggerList].map(
+    (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+  );
+  const popoverTriggerList = document.querySelectorAll(
+    '[data-bs-toggle="popover"]'
+  );
+  const popoverList = [...popoverTriggerList].map(
+    (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+  );
+</script>
